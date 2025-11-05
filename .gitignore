@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.so
+*.log
+
+# === Jupyter notebooks ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Data / outputs ===
+data/
+figures/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# === Environment / packages ===
+env/
+.venv/
+venv/
+*.env
+.env/
+.DS_Store
+ts-gas
+
+# === OS / editor ===
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# === Cache / builds ===
+build/
+dist/
+*.bak
